@@ -1,0 +1,11 @@
+.container-atletas-novo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.container-atletas-novo .atleta {
+    width: 15rem;
+    margin: 0.5rem;
+    
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atletas Botafogo</title>
+    <link rel="icon" type="image/png" href="botafogo_logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container-entrada">
+        <h1>Atletas Botafogo em 2023-2</h1>
+        <p>"Criado com o objetivo exclusivamente didático para a disciplina Desenvolvimento Web do Ibmec Rio."</p>
+        
+        <div>
+            <p>A senha para entrar na aplicação é <strong>"SENHA"</strong>.</p>
+            <div id="formulario">
+                <input placeholder="Entre com a senha" type="text" id="entrada">
+                <button onclick="verificaSenha()">Entrar</button>
+            </div>
+            <div id="secreta" style="display: none;">
+                <button onclick="limpaCoiso()">Sair</button>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="md5.js"></script>
+    <script src="login.js"></script>
+
+    
+</html>
